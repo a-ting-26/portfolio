@@ -18,7 +18,7 @@ function Hero() {
     const githubIcon = theme === 'light' ? githubLight : githubDark;
     const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
     return (
-        <section id='hero'>
+        <section id='hero' className={styles.container}>
             <div className={styles.colorModeContainer}>
                 <img src={heroImg} alt="Profile picture of Andrew Ting" className={styles.hero} />
                 <img src={themeIcon} alt="Color mode icon" className={styles.colorMode} onClick={toggleTheme}/>
@@ -31,7 +31,7 @@ function Hero() {
                     <a href="https://github.com/a-ting-26" target='_blank'><img src={githubIcon} alt="github icon" /></a>
                     <a href="https://www.linkedin.com/in/andrew-ting1/" target='_blank'><img src={linkedinIcon} alt="linkedin icon" /></a>
                 </span>
-                <p>Minoring in data science and interests in machine learning and full stack development.</p>
+                <p className={styles.description}>Minoring in data science and interests in machine learning and full stack development.</p>
                 <a href={CV} download>
                     <button className='hover'>Resume</button>
                 </a>
