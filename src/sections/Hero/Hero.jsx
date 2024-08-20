@@ -26,8 +26,7 @@ function Hero() {
             <div className={styles.info}>
                 <h1>Andrew<br />Ting</h1>
                 <h2>Computer Science Major at Boston University</h2>
-                <span>
-                    <a href="httpstwitter.com" target='_blank'><img src={twitterIcon} alt="Twitter icon" /></a>
+                <span>            
                     <a href="https://github.com/a-ting-26" target='_blank'><img src={githubIcon} alt="github icon" /></a>
                     <a href="https://www.linkedin.com/in/andrew-ting1/" target='_blank'><img src={linkedinIcon} alt="linkedin icon" /></a>
                 </span>
