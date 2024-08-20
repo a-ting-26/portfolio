@@ -1,10 +1,10 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/IMG_2937.png';
+import heroImg from '../../assets/IMG_6446.png';
 import sun from '../../assets/sun.svg';
 import twitterLight from '../../assets/twitter-light.svg';
 import githubLight from '../../assets/github-light.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
-import CV from '../../assets/Resume (5).pdf';
+import CV from '../../assets/Resume (7).pdf';
 import {useTheme} from '../../common/ThemeContext';
 import moon from '../../assets/moon.svg';
 import twitterDark from '../../assets/twitter-dark.svg';
