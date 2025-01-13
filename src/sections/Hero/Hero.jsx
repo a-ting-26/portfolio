@@ -4,7 +4,7 @@ import sun from '../../assets/sun.svg';
 import twitterLight from '../../assets/twitter-light.svg';
 import githubLight from '../../assets/github-light.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
-import CV from '../../assets/Resume (7).pdf';
+import CV from '../../assets/Andrew_s_Resume.pdf';
 import {useTheme} from '../../common/ThemeContext';
 import moon from '../../assets/moon.svg';
 import twitterDark from '../../assets/twitter-dark.svg';
